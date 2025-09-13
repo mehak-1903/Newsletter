@@ -150,4 +150,89 @@ hr {
 .footer h2 {
     color: skyblue;
     text-align: center;
+
+}
+
+/* Responsive for tablet */
+
+@media (max-width: 1024px) {
+    .container {
+        width: 50%;
+        margin: auto;
+    }
+
+    .header h2 {
+        font-size: 1.2rem;
+    }
+
+    .header h1 {
+        font-size: 3rem;
+    }
+
+    .header h1 span {
+        font-size: 3rem;
+    }
+
+    .sub-heading {
+        padding: 2px 0px;
+        font-size: 14px;
+    }
+
+    .left-section h2 {
+        font-size: 1.1rem;
+    }
+
+    .left-section p {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+    .right-section {
+        width: 62%;
+    }
+
+    .sub-container {
+        margin-top: 5px;
+    }
+
+    .left-content {
+        width: 62%;
+        font-size: 9px;
+    }
+
+    .right-content {
+        width: 62%;
+        font-size: 9px;
+        padding: 9px;
+    }
+
+    .last-container .image {
+        margin-top: 5px;
+    }
+
+    .image img {
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+    .text{
+        margin: 5px;
+    }
+    .text h2{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .text p{
+        font-size: 8px;
+    }
+    .bottom{
+        margin-top: 3px;
+    }
+    .bottom p{
+        padding: 3px;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .footer h2{
+        font-size: 1.3rem;
+    }
 }

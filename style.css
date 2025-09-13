@@ -37,7 +37,7 @@ hr {
     background-color: black;
     color: white;
     font-size: 21px;
-    padding: 5px;
+    padding: 5px 0px;
 }
 
 .section {
@@ -150,7 +150,6 @@ hr {
 .footer h2 {
     color: skyblue;
     text-align: center;
-
 }
 
 /* Responsive for tablet */
@@ -234,5 +233,21 @@ hr {
     }
     .footer h2{
         font-size: 1.3rem;
+    }
+}
+
+/* Responsive for Mobile */
+@media(max-width: 915px){
+    .container{
+        width: 90%;
+    }
+    .header h2{
+        font-size: 1.15rem;
+    }
+    .sub-heading{
+        font-size: 0.8rem;
+    }
+    .footer h2{
+        font-size: 1.25rem;
     }
 }
